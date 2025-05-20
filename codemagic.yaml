@@ -1,0 +1,10 @@
+workflows:
+  web-build:
+    name: Flutter Web Build
+    environment:
+      flutter: stable
+    scripts:
+      - flutter pub get
+      - flutter build web
+    artifacts:
+      - build/web/**

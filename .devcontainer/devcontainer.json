@@ -1,0 +1,19 @@
+{
+  "name": "Flutter DevContainer",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "postCreateCommand": "flutter doctor",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dart-code.flutter"
+      ]
+    }
+  },
+  "features": {},
+  "remoteUser": "vscode"
+}
